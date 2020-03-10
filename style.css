@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+.button {
+  padding: 15px 25px;
+  font-family: 'Spartan';
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #7aa3bf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+  margin-top: 10vmin;
+}
+
+.button:hover {background-color: #638fad}
+
+.button:active {
+  background-color: #5e89a6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#background{
+  display: flex;
+  flex-direction: column;
+  background-image: url("midterm1.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#logoContainer img{
+  width: 80%;
+}
+
+#intro {
+  font-family: 'Spartan';
+  font-size: 3vmin;
+}
+
+#title {
+  font-family: 'Luckiest Guy';
+  font-size: 15vmin;
+  margin-top: 10vmin;
+  color: #d62d90;
+}
+
+/* page 2 */
+
+
+/* #background2 img{ */
+  /* background-image: url("page2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  /* width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+    position: absolute;
+} */
+
+#background2 {
+  width: 100vw;
+  height: 100vh;
+
+  /* background-image: url('w');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center; */
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  overflow: hidden;
+  /* justify-content: center; */
+}
