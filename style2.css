@@ -69,7 +69,10 @@
   border-radius: 15px;
   box-shadow: 0 9px #999;
   /* align-items: center; */
-  margin-top: 13vmin;
+
+  /* NOTE:
+  We remove margin from the button so the Grid Item can be centered correctly */
+  /* margin-top: 13vmin; */
 }
 
 .buttonNavigation1:hover {background-color: #e6a5ca}
@@ -377,6 +380,12 @@ p+p {
 #previous {
   grid-column: 1;
   grid-row: 1;
+
+  /* NOTE:
+  The "#previous" div is the actual "grid item", so we set its alignment here.
+  We can put justify-self and align-self: center, or combine them with place-self. */
+  place-self: center;
+
 }
 
 .cardDeck {
